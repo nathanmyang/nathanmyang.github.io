@@ -1,0 +1,126 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid gray;
+    
+}
+
+.description-header{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.companyname h1{
+    margin-left: 20px;
+}
+
+.greeting h1{
+    margin-right: 20px;
+}
+
+/*Body*/
+
+.container{
+    display: grid;
+    grid-template-columns: 20% 60% 1fr;
+    margin-top: 10px;
+}
+
+h2, h3{
+    color: blue;
+}
+
+.body-content{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 80%;
+}
+
+.body-content-1, .body-content-2, .body-content-3{
+    margin: 5px;
+}
+
+/*Email Form*/
+
+
+.email-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: right;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+input {
+    height: 20px;
+    flex: 0 0 300px;
+    margin-left: 10px;
+
+}
+
+.email-info .searchbar{
+    height: 90px;
+}
+
+.email-buttons{
+    margin-left: 180px;
+}
+
+/*Left sidebar*/
+.sidebar-left{
+    width: 90%;
+}
+
+.sidebar-left{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar-left a{
+    text-decoration: none;
+    color: blue;
+    margin: 10px;
+    border-radius: 8%;
+    background-color: rgb(224, 237, 241);
+}
+
+/*Right sidebar*/
+
+.sidebar-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-container img{
+    height: 100px;
+    width: 160px;
+}
+
+#us-img{
+    margin-bottom: 5px;
+}
+
+.addresses{
+    display: flex;
+    flex-direction: column;
+    color: blue;
+}
+
