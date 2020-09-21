@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header-container">
+        <header>
+            <div class="img-container">
+                <a href="index.html" class="img-button">
+                    <img src="images/logo.png" alt="">
+                </a>
+            </div>
+            <div class="nav-container">
+                <a href="index.html">HOME</a>
+                <a href="aboutus.html">ABOUT US</a>
+                <a href="services.html">SERVICES</a>
+                <a href="experience.html">EXPERIENCE</a>
+                <a href="OurPeople.html">OUR PEOPLE</a>
+            </div>
+            <div class="contact-us-button">
+                <a class="button-design" href="" target="" rel="nofollow noopener">Contact Us</a></div>
+        </header>
+    </div>
+    <main>
+        <div class="img-body-wrapper">
+            <div id="body-background">
+            </div>
+            <div class="body-intro">
+                <h1>Data and research driven solutions <br> to advancing human health</h1>
+            </div>
+        </div>
+        <div class="body-container">
+            <div class="content-area">
+                <div class="section-wrapper" id="section-wrapper-1">
+                    <div id="section-1" class="section">
+                        <div class="section-titles">
+                            <img src="images/memory-card.png" alt="">
+                            <h1>We're MacroStat Inc.</h1>
+                        </div>
+                        <div class="section-description">
+                            <p>Founded in 2002, MacroStat, Inc. is an international contract research organization (CRO) providing statistical analysis, data management, and report writing services to the pharmaceutical, bio-tech, and medical device industries. Our offices are located in Delaware, US and Shanghai, China.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-wrapper" id="section-wrapper-2">
+                    <div id="section-2" class="section">
+                        <div class="section-titles">
+                            <img src="images/analytics.png" alt="">
+                        </div>
+                        <div class="section-description">
+                            <h1>Specialized Areas</h1>
+                            <ul>
+                                <li>SAP development and SAS programming</li>
+                                <li>DSMB and interim analyses</li>
+                                <li>Generation of CDISC, SDTM, and ADaM datasets</li>
+                            </ul>
+                            <a class="nav-button" href="">See All Services</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section" id="section-3">
+                    <div class="section-titles">
+                        <h1>Our Experience</h1>
+                    </div>
+                    <div class="section-description">
+                        <p>For almost 20 years, we have provided quality and efficient services to large pharmaceutical, bio-tech, and medical device companies. Our clients include:</p>
+                    </div>
+                    <div class="client-container">
+                        <div class="client">
+                            <img src="images/nih-logo.jpg" alt="">
+                        </div>
+                        <div class="client">
+                            <img src="images/az.png" alt="" id="img-2">
+                        </div>
+                        <div class="client">
+                            <img src="images/sanofi-logo.png" alt="">
+                        </div>
+                        <div class="client">
+                            <img src="images/endo-logo.png" id="img-4">
+                        </div>
+                        <div class="client">
+                            <img src="images/FibroGen-logo.png" alt="" id="img-5">
+                        </div>
+                        <div class="client">
+                            <img src="images/viropharma-logo.png" id="img-6">
+                    </div>
+                </div>
+                <div id="section-wrapper-4">
+                    <div id="section-4" class="section"> 
+                        <div class="location" id="location-1">
+                            <h1>Locations</h1>
+                            <div class="location-image" id="location-image-1">
+                                <img src="images/DelParkPic-535x323_1_-135x75_1_.jpeg" alt="">
+                            </div>
+                            <div class="address" id="address-1">
+                                <p>
+                                    MacroStat, Inc.<br>
+                                    Delaware Technology Park<br>
+                                    One Innovation Way<br>
+                                    Suite 302C<br>
+                                    Newark, DE 19711, USA<br>
+                                    Phone: (302) 438-2889<br>
+                                    Fax: (302) 239-7442<br>
+                                </p>
+                            </div>
+                            <div class="location-image" id="location-image-2">
+                                <img src="images/One_Innovation_Way-540x314_1_-135x75_1_.jpeg" alt="">
+                            </div>
+                            <div class="address" id="address-2">
+                                <p>
+                                    Room 15306-15308,<br>
+                                    Block 15<br>
+                                    498 Guo Shou Jing Road<br>
+                                    Shanghai, 201203, China<br>
+                                    Phone: (86) 21-50276030<br>
+                                    Fax: (86) 21-50807377<br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <p>© 2007 Macrostat Inc. - All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+<script>
+    const bodyImg = document.querySelector('.img-body-wrapper');
+
+    bodyImg.addEventListener('mouseover', () =>{
+        bodyImg.childNodes[1].classList.add('image-blur');
+    });
+
+    bodyImg.addEventListener('mouseout', () =>{
+        bodyImg.childNodes[1].classList.remove('image-blur');
+    });
+</script>
+
+</html>
