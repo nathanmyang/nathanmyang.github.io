@@ -661,7 +661,7 @@ footer{
 
 /* Our People Webpage */
 #ourpeople-header-container{
-    background-color: rgb(125, 144, 156);
+    background-color: rgb(106, 120, 129);
     margin-bottom: 0;   
 }
 
@@ -669,7 +669,7 @@ footer{
     font-size: 5em;
     width: 60%;
     margin: auto;
-    color: rgb(232, 236, 207);
+    color: rgb(230, 233, 214);
 }
 
 /* Grid Our People */
@@ -692,7 +692,7 @@ footer{
 
 .op-description-header{
     padding-left: 10px;
-    border-left: 1px solid red;
+    border-left: 2px solid turquoise;
 }
 
 #ourpeople-description-1 h2, #ourpeople-cc-2 h2{
@@ -700,6 +700,7 @@ footer{
     margin-bottom: 10px;
     margin: 0;
     font-weight: 500px;
+    color: rgb(35, 73, 99);
 }
 
 #ourpeople-description-1 h3{
