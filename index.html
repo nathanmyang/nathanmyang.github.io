@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MacroStat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header-container">
+        <header>
+            <div class="img-container">
+                <a href="index.html" class="img-button">
+                    <img src="images/logo_edited.jpg" alt="">
+                </a>
+            </div>
+            <div class="nav-container">
+                <a href="index.html">HOME</a>
+                <a href="aboutus.html">ABOUT US</a>
+                <a href="services.html">SERVICES</a>
+                <a href="experience.html">EXPERIENCE</a>
+                <a href="OurPeople.html">OUR PEOPLE</a>
+            </div>
+            <div class="contact-us-button">
+                <a class="button-design" href="contactus.html" target="" rel="nofollow noopener">Contact Us</a>
+            </div>
+        </header>
+    </div>
+    <main>
+        <div class="img-body-wrapper">
+            <div id="body-background">
+            </div>
+            <div class="body-intro">
+                <h1>Data and research driven solutions <br> to advancing human health</h1>
+            </div>
+        </div>
+        <div class="body-container">
+            <div class="content-area">
+                <div class="section-wrapper" id="section-wrapper-1">
+                    <div id="section-1" class="section">
+                        <div class="section-titles">
+                            <h1>We're MacroStat Inc.</h1>
+                        </div>
+                        <div class="section-description">
+                            <p>Established in 2002, MacroStat, Inc. is an international contract research organization (CRO) based in Florida, US, providing statistical analysis, data management, and report writing services to the pharmaceutical, bio-technology, and medical device industries, and well as the National Institutes of Health (NIH).</p>
+                        </div>
+                        <a class="nav-button" id="aboutus-button" href="aboutus.html">More About Us</a></div>
+                    </div>
+                </div>
+                <div class="section-wrapper" id="section-wrapper-2">
+                    <div id="section-2" class="section">
+                        <div class="section-titles">
+                            <img src="images/analytics.png" alt="">
+                        </div>
+                        <div class="section-description">
+                            <h1>Specialized Areas</h1>
+                            <ul>
+                                <li>Clinical trial protocol development</li>
+                                <li>Statistical analysis plan (SAP) development</li>
+                                <li>CDISC SDTM and ADaM datasets</li>
+                                <li>DSMB/DMC and interim analyses</li>
+                            </ul>
+                            <a class="nav-button" href="services.html">See All Services</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section" id="section-3">
+                    <div class="section-titles">
+                        <h1>Our Experience</h1>
+                    </div>
+                    <div class="section-description">
+                        <p>For almost 20 years, we have provided quality and efficient services to large pharmaceutical, bio-tech, and medical device companies. Our clients include:</p>
+                    </div>
+                    <div class="client-container">
+                        <div class="client">
+                            <img src="images/nih-logo.jpg" alt="" id="img-1">
+                        </div>
+                        <div class="client">
+                            <img src="images/az.png" alt="" id="img-2">
+                        </div>
+                        <div class="client">
+                            <img src="images/sanofi-logo.png" alt="img-3">
+                        </div>
+                        <div class="client">
+                            <img src="images/endo-logo.png" id="img-4">
+                        </div>
+                        <div class="client">
+                            <img src="images/FibroGen-logo.png" alt="" id="img-5">
+                        </div>
+                        <div class="client">
+                            <img src="images/viropharma-logo.png" id="img-6">
+                    </div>
+                </div>
+                <div id="section-wrapper-4">
+                    <div class="section-titles">
+                        <h2>Let's Get Started</h2>
+                        <a class="nav-button" id="contactus-bottom-button" href="contactus.html">Contact Us</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <p>© 2007 Macrostat Inc. - All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+<script>
+    const bodyImg = document.querySelector('.img-body-wrapper');
+
+    bodyImg.addEventListener('mouseover', () =>{
+        bodyImg.childNodes[1].classList.add('image-blur');
+    });
+
+    bodyImg.addEventListener('mouseout', () =>{
+        bodyImg.childNodes[1].classList.remove('image-blur');
+    });
+</script>
+
+</html>
