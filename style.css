@@ -90,42 +90,46 @@ header {
 }
 
 #body-background {
-  min-height: 500px;
-  background: url("images/index.jpeg") no-repeat 0 -400px;
-  background-position: 50% 65%;
+  min-height: 600px;
+  background: url("images/header3.jpg") no-repeat 0 -400px;
+  background-position: 90% 60%;
+  transform: rotate(180deg);
   text-align: center;
   color: #ffffff;
   opacity: 90%;
-  filter: brightness(90%);
+  filter: brightness(70%);
 }
 
 .body-intro {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-55%, -50%);
+  transform: translate(-50%, -50%);
   width: 80%;
   border-left: 2px solid turquoise;
   padding: 10px;
+}
+
+#intro-2 {
+  color: black;
 }
 
 .body-intro h1 {
   color: rgb(255, 255, 255);
   height: 100%;
   font-weight: 600px;
-  font-size: 2.3em;
+  font-size: 4em;
   padding: 10px;
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.06);
   padding: 0;
-  text-transform: uppercase;
-  font-style: italic;
   margin: 0;
+  width: 50%;
 }
 
 .body-intro p {
-  color: rgb(108, 158, 190);
+  color: white;
   margin: 0;
-  font-size: 1.1em;
+  font-size: 1.2em;
   padding-top: 10px;
 }
 
@@ -532,10 +536,15 @@ footer {
 #services-bodyimage-1 {
   grid-area: image;
   display: flex;
+  height: 350px;
+  overflow: hidden;
+  position: relative;
 }
 
 #services-bodyimage-1 img {
   width: 100%;
+  position: absolute;
+  top: -15px;
 }
 
 #services-cc-2 {
@@ -699,6 +708,10 @@ footer {
   margin-bottom: 0;
 }
 
+#ourpeople-content-container {
+  min-height: 75em;
+}
+
 #ourpeople-header h1 {
   font-size: 4.5em;
   width: 60%;
@@ -761,7 +774,7 @@ footer {
 }
 
 #ourpeople-bodyimage-2 img {
-  height: 450px;
+  height: 400px;
 }
 
 #ourpeople-cc-2 {
