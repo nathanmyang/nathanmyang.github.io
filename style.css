@@ -1010,13 +1010,6 @@ footer {
     font-size: 1.2em;
     border-left: 3px solid rgb(230, 221, 171);
     padding-left: 1em;
-    border-image: linear-gradient(
-      to bottom,
-      rgb(230, 221, 171) 25%,
-      rgb(230, 221, 171) 75%,
-      rgb(230, 221, 171) 75%
-    );
-    border-image-slice: 1;
   }
   #responsive-image-1,
   #responsive-image-2 {
