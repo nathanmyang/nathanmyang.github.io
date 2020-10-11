@@ -15,38 +15,57 @@
           </a>
         </div>
         <div class="nav-container">
-          <a href="index.html">HOME</a>
-          <a href="aboutus.html">ABOUT US</a>
-          <div class="onThispage">
-            <a href="services.html">SERVICES</a>
-          </div>
-          <a href="experience.html">EXPERIENCE</a>
-          <a href="OurPeople.html">OUR PEOPLE</a>
+          <a href="index.html" class="nav-links">HOME</a>
+          <a href="aboutus.html" class="nav-links">ABOUT US</a>
+          <a href="services.html" id="onThispage" class="nav-links">SERVICES</a>
+          <a href="experience.html" class="nav-links">EXPERIENCE</a>
+          <a href="OurPeople.html" class="nav-links">OUR PEOPLE</a>
         </div>
         <div class="contact-us-button">
-          <a class="button-design" href="" target="" rel="nofollow noopener"
+          <a
+            class="button-design"
+            href="contactus.html"
+            target=""
+            rel="nofollow noopener"
             >Contact Us</a
           >
         </div>
+        <div class="contact-us-button" id="contact-us-button-2">
+          <a
+            id="button-design-2"
+            href="contactus.html"
+            target=""
+            rel="nofollow noopener"
+            ><img src="images/icons/call-transparent.png" alt=""
+          /></a>
+        </div>
+        <div class="nav-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
       </header>
     </div>
-    <div class="header-content-container" id="servicesPage">
+    <div class="space"></div>
       <div class="section-header-container" id="services-header-container">
         <div class="section-header" id="services-header">
           <h1>Services</h1>
+          <!--
           <div class="services-scroll">
             <p>Scroll down to see list of services</p>
             <img src="images/down-arrow.png" alt="" />
           </div>
+          -->
         </div>
         <div class="section-image" id="services-image">
           <img src="images/header images/services.jpg" alt="" />
         </div>
       </div>
       <div id="services-content-container">
-        <div class="service-cc" id="services-cc-1">
+        <div id="services-cc-1">
           <div id="services-description-1">
             <h2>Statistical Analysis Services</h2>
+            <img src="images/services/services-body-image-1.jpg" alt="" id="responsive-image-1" />
             <p>
               At MacroStat, we pride ourselves for our powerful proprietary SAS
               macros, and efficient and effective approach to managing multiple
@@ -55,12 +74,13 @@
             </p>
           </div>
           <div id="services-bodyimage-1">
-            <img src="images/header images/services1.jpg" alt="" />
+            <img src="images/services/services-body-image-1.jpg" alt="" />
           </div>
         </div>
         <div id="services-cc-2">
           <div id="services-description-2">
             <h2>Qualifications</h2>
+            <img src="images/services-audits.jpeg" alt="" id="responsive-image-2"/>
             <p>
               We have successfully passed all of the audits conducted by our
               clients for company organization, SOP administration, security of
@@ -88,9 +108,11 @@
               <li>Writing of Clinical and Statistical Reports</li>
               <li>Global Submission of New Drug Applications (IND/NDA)</li>
             </ul>
-            <img src="images/services-style-image.jpeg" alt="" />
           </div>
         </div>
+      </div>
+      <div class="service-decorative-img">
+        <img src="images/services-style-image.jpeg" alt="" />
       </div>
     </div>
     <footer>
@@ -99,4 +121,5 @@
       </div>
     </footer>
   </body>
+  <script src="app.js"></script>
 </html>
