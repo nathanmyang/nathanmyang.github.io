@@ -67,7 +67,7 @@
                 <div class="contactUs-image">
                     <img src="images/icons/email.png" alt="">
                 </div>
-                <p>bingzhang@macrostat.us</p>
+                <p>bing.zhang@macrostat.us</p>
             </div>
           </div>
           <div class="email-form-2">
@@ -96,24 +96,25 @@
         </div>
         <div class="email-form">
           <form
-            action="bing.zhang@macrostat.com"
+            action="mailto:bing.zhang@macrostat.com"
             method="post"
-            enctype="text/plain"
+            action="contactform.php"
           >
             <div class="email-info">
-              <input type="text" name="name" placeholder="name" />
+              <input type="text" name="name" placeholder="Name" />
             </div>
             <div class="email-info">
-              <input type="text" name="email" placeholder="email" />
+              <input type="text" name="email" placeholder="Email" />
             </div>
             <div class="email-info">
-              <input type="text" name="phone number" placeholder="phone number" />
+              <input type="text" name="phone number" placeholder="Phone Number" />
             </div>
             <div class="email-info">
-              <input type="text" name="searchbar" class="searchbar" />
+              <!-- <input type="text" name="searchbar" class="searchbar" /> -->
+              <textarea name="message" placeholder="Message" row="4" class="searchbar" required></textarea>
             </div>
             <div class="email-info" id="email-button">
-              <input type="submit" value="Send"/>
+              <input type="submit" name="submit" value="Send"/>
             </div>
           </form>
         </div>
