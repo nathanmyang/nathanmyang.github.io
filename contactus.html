@@ -50,7 +50,7 @@
           <h3>
             Contact us to learn more about our company, products, or
             services.
-          </3>
+          </h3>
           <div class="contactUs-info">
             <div class="contactUs-element" id="location">
                 <div class="contactUs-image">
@@ -72,20 +72,22 @@
           </div>
           <div class="email-form-2">
             <form
-              method="post"
-              action="contactform.php"
+              action="mailto:bing.zhang@macrostat.com"
+              method="POST"
+              name="EmailForm"
             >
               <div class="email-info">
-                <input type="text" name="name" placeholder="name" />
+                <input type="text" name="name" placeholder="Name"/><br><br>
               </div>
               <div class="email-info">
-                <input type="text" name="email" placeholder="email" />
+                <input type="text" name="email" placeholder="Email" />
               </div>
               <div class="email-info">
-                <input type="text" name="phone number" placeholder="phone number" />
+                <input type="text" name="number" placeholder="Phone Number" />
               </div>
               <div class="email-info">
-                <input type="text" name="searchbar" class="searchbar" />
+                <!-- <input type="text" name="searchbar" class="searchbar" /> -->
+                <textarea name="message" placeholder="Message" row="4" class="searchbar" required></textarea>
               </div>
               <div class="email-info" id="email-button">
                 <input type="submit" value="Send"/>
@@ -95,8 +97,9 @@
         </div>
         <div class="email-form">
           <form
-              method="post"
-              action="contactform.php"
+            action="mailto:bing.zhang@macrostat.com"
+            method="POST"
+            name="EmailForm"
           >
             <div class="email-info">
               <input type="text" name="name" placeholder="Name" required/>
@@ -105,7 +108,7 @@
               <input type="text" name="email" placeholder="Email" required/>
             </div>
             <div class="email-info">
-              <input type="text" name="phone number" placeholder="Phone Number" required/>
+              <input type="text" name="number" placeholder="Phone Number"/>
             </div>
             <div class="email-info">
               <!-- <input type="text" name="searchbar" class="searchbar" /> -->
