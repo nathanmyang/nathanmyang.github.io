@@ -1,19 +1,32 @@
 <?php
-$name = $_POST['name'];
-$visitor_email = $_POST['email'];
-$visitor_phone_number = $_POST['phone number'];
-$message = $_POST['message'];
+        $mailto="nathan.yang16@gmail.com"; 
+        $pcount=0;
+        $gcount=0;
+        $subject = "Mail from Enquiry Form";
 
-$email_from = 'DO-NOT-REPLY@macrostat.us';
-$email_subject = "New Form Submission";
-$email_body = "User Name : $name.\n".
-"User Email: $visitor_email.\n".
-"User Phone Number: $visitor_phone_number.\n".
-"User Message: $message.\n";
+        $from="DO-NOT-REPLY@macrostat.us";
+        while (list($key,$val)=each($_POST))
+        {
+        $pstr = $pstr."$key : $val \n ";
+        ++$pcount;
 
-$to = "nathan.yang16@gmail.com";
-$headers = "From: $email_form \r\n";
-$headers .= "Reply-To: $visitor_email \r\n";
-mail($to,$email_subject,$email_body, $headers);
-header("Location: index.html");
+        }
+        while (list($key,$val)=each($_GET))
+        {
+        $gstr = $gstr."$key : $val \n ";
+        ++$gcount;
+
+        }
+        if ($pcount > $gcount)
+        {
+        $message_body=$pstr;
+        mail($mailto,$subject,$message_body,"From:".$from);
+        echo "Mail has been sent";
+        }
+        else
+        {
+        $message_body=$gstr;
+        mail($mailto,$subject,$message_body,"From:".$from);
+        echo "Mail has been sent";
+        }
 ?>
