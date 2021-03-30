@@ -162,6 +162,10 @@ header {
   align-items: center;
 }
 
+.img-container img {
+  height: 80px;
+}
+
 .img-container a:hover {
   border: none;
 }
