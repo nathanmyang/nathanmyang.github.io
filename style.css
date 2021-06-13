@@ -162,10 +162,6 @@ header {
   align-items: center;
 }
 
-.img-container img {
-  height: 80px;
-}
-
 .img-container a:hover {
   border: none;
 }
@@ -221,9 +217,9 @@ header {
 }
 
 /*
-  #contact-us-button-2 is "contact us" symbol — navigation bar
-  
-  */
+#contact-us-button-2 is "contact us" symbol — navigation bar
+
+*/
 
 #contact-us-button-2 {
   display: none;
@@ -405,12 +401,12 @@ header {
 
 #body-background {
   height: 92vh;
-  background: url("images/bridge-header.jpg") no-repeat 0 -400px;
-  background-position: 75% 80%;
+  background: url("images/header2.jpg") no-repeat 0 -400px;
+  background-position: 85% 80%;
   transform: rotate(180deg);
   text-align: center;
   color: #ffffff;
-  opacity: 80%;
+  opacity: 90%;
   filter: brightness(85%);
 }
 
@@ -804,10 +800,10 @@ ul li {
 }
 
 /*
-  .client:hover {
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-  }
-  */
+.client:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+*/
 
 #img-1 {
   height: 10vh;
@@ -877,16 +873,16 @@ footer {
 }
 
 /* END INDEX SECTION 
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  */
+//
+//
+//
+//
+//
+//
+//
+//
+//
+*/
 
 /*About Us Page*/
 
@@ -924,15 +920,15 @@ footer {
 }
 
 /* END EVERY PAGE HEADER 
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  */
+//
+//
+//
+//
+//
+//
+//
+//
+*/
 
 #aboutus-header h1 {
   font-size: 4.5em;
@@ -1012,8 +1008,8 @@ footer {
   }
 
   /* #bc-1 {
-      margin-top: 10vh;
-    } */
+    margin-top: 10vh;
+  } */
 
   #aboutus-header h1 {
     font-size: 4.3em;
@@ -1050,23 +1046,23 @@ footer {
   }
 
   /* #body-background {
-      height: 92vh;
-      background: url("images/header2.jpg") no-repeat 0 -400px;
-      background-position: 90% 60%;
-      transform: rotate(180deg);
-      text-align: center;
-      color: #ffffff;
-      opacity: 90%;
-      filter: brightness(70%);
-    } */
+    height: 92vh;
+    background: url("images/header2.jpg") no-repeat 0 -400px;
+    background-position: 90% 60%;
+    transform: rotate(180deg);
+    text-align: center;
+    color: #ffffff;
+    opacity: 90%;
+    filter: brightness(70%);
+  } */
 
   /* .section-header {
-      font-size: 0.8em;
-      width: 100%;
-      margin-top: 5em;
-      text-align: center;
-      margin-bottom: 2em;
-    } */
+    font-size: 0.8em;
+    width: 100%;
+    margin-top: 5em;
+    text-align: center;
+    margin-bottom: 2em;
+  } */
 
   .aboutus-body-container {
     display: flex;
@@ -1251,36 +1247,36 @@ footer {
 /* R - Services */
 
 /* @media (max-width: 768px) {
-    #services-content-container {
-      margin-top: 30vh;
-    }
-  
-    .body-content-container {
-      margin-top: 25vh;
-    }
-  
-    .experience-image img {
-      height: 500px;
-    }
-  
-    #ourpeople-content-container {
-      margin-top: 30vh;
-    }
+  #services-content-container {
+    margin-top: 30vh;
   }
-  
-  @media screen {
-    #services-content-container {
-      margin-top: 0;
-    }
-  
-    .body-content-container {
-      margin-top: 0;
-    }
-  
-    #ourpeople-content-container {
-      margin-top: 0;
-    }
-  } */
+
+  .body-content-container {
+    margin-top: 25vh;
+  }
+
+  .experience-image img {
+    height: 500px;
+  }
+
+  #ourpeople-content-container {
+    margin-top: 30vh;
+  }
+}
+
+@media screen {
+  #services-content-container {
+    margin-top: 0;
+  }
+
+  .body-content-container {
+    margin-top: 0;
+  }
+
+  #ourpeople-content-container {
+    margin-top: 0;
+  }
+} */
 
 @media screen and (max-width: 768px) {
   #services-content-container {
@@ -1424,12 +1420,12 @@ footer {
 }
 
 /*
-  
-  .eb-grid-container:hover {
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
-  }
-  
-  */
+
+.eb-grid-container:hover {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+*/
 
 .eb-content-header-container {
   text-align: center;
@@ -1688,9 +1684,9 @@ footer {
 }
 
 /* #ourpeople-bodyimage-2 img:hover {
-    height: 375px;
-    transition: ease-in 0.4s;
-  } */
+  height: 375px;
+  transition: ease-in 0.4s;
+} */
 
 #ourpeople-cc-1 {
   margin-top: 11vh;
@@ -1762,13 +1758,13 @@ footer {
   }
 
   /* #ourpeople-description-1 h2,
-      #ourpeople-description-1 h3 {
-        border-right: 3px solid rgb(219, 189, 20);
-        padding-right: 15px;
-        background: rgb(237, 237, 237);
-        width: 100%;
-        margin-top: -1px;
-      } */
+    #ourpeople-description-1 h3 {
+      border-right: 3px solid rgb(219, 189, 20);
+      padding-right: 15px;
+      background: rgb(237, 237, 237);
+      width: 100%;
+      margin-top: -1px;
+    } */
 
   .op-description {
     border-right: 3px solid rgb(219, 189, 20);
